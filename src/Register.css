@@ -1,0 +1,78 @@
+/* Background animation */
+.register-page {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: linear-gradient(-45deg, #ff6ec4, #7873f5, #4ade80, #60a5fa);
+  background-size: 400% 400%;
+  animation: gradientBG 10s ease infinite;
+}
+
+@keyframes gradientBG {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* Glass-like form container */
+.register-container {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.2);
+  width: 300px;
+}
+
+.register-title {
+  color: white;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.register-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.register-form input {
+  padding: 8px;
+  border: none;
+  border-radius: 4px;
+}
+
+.register-form input:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(255,255,255,0.7);
+}
+
+.register-form button {
+  padding: 8px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.register-form button:hover {
+  opacity: 0.9;
+}
+
+.login-btn {
+  margin-top: 10px;
+  padding: 8px;
+  background-color: #2196F3;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.login-btn:hover {
+  opacity: 0.9;
+}
