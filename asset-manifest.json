@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Data-Analytics-Dashboard/static/css/main.30a7dc3c.css",
-    "main.js": "/Data-Analytics-Dashboard/static/js/main.db043c06.js",
+    "main.js": "/Data-Analytics-Dashboard/static/js/main.f4ba5cc6.js",
     "static/js/453.637a1d4b.chunk.js": "/Data-Analytics-Dashboard/static/js/453.637a1d4b.chunk.js",
     "index.html": "/Data-Analytics-Dashboard/index.html",
     "main.30a7dc3c.css.map": "/Data-Analytics-Dashboard/static/css/main.30a7dc3c.css.map",
-    "main.db043c06.js.map": "/Data-Analytics-Dashboard/static/js/main.db043c06.js.map",
+    "main.f4ba5cc6.js.map": "/Data-Analytics-Dashboard/static/js/main.f4ba5cc6.js.map",
     "453.637a1d4b.chunk.js.map": "/Data-Analytics-Dashboard/static/js/453.637a1d4b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.30a7dc3c.css",
-    "static/js/main.db043c06.js"
+    "static/js/main.f4ba5cc6.js"
   ]
 }
